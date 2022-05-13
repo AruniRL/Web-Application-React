@@ -1,0 +1,50 @@
+.features-tiles-item-image {
+	display: inline-flex;
+	border-radius: 50%;
+	background-color: get-color(primary, 3);
+	width: 200px;
+	height: 200px;
+}
+// .wishlist{
+// 	margin-left: 2rem;
+// 	font-size: 32px;	
+// }
+
+// .email_address{
+// 	margin-top: -2rem;
+//   margin-left: 2rem;
+//   font-size: 18px;
+//   padding: 0.75rem;
+//   border: none;
+// }
+// .email_address_button{
+// 	margin-left: 0.50rem;
+//     padding: 0.75rem;
+//     background-color: #6163ff;
+//     font-size: 18px;
+//     color: #fff;
+//     border: none;
+// }
+
+.container{
+  margin-top: 3.5rem;
+}
+.container .services p{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  font-family: Lato;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.features-tiles-item-content h4{
+  font-size: 1.25rem;
+  font-family: Lato;
+  color: #fff;
+}
+.features-tiles-item-content p{
+  font-family: Lato;
+  font-size: 1rem;
+  text-align: center;
+}

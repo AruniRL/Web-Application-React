@@ -1,0 +1,75 @@
+// * {
+// 	margin: 0;
+// 	padding: 0;
+// 	box-sizing: border-box;
+// }
+
+// body {
+//   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+//     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+//     sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+//   background-color: #EEE;
+// }
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+//     monospace;
+// }
+
+// header {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-content: center;
+// 	padding: 15px;
+// 	background-color: #3c3c3c;
+// 	border-bottom: 3px solid #56E3B8;
+// }
+
+// header h1 {
+// 	color: #EEE;
+// 	font-size: 28px;
+// 	font-weight: 700;
+// 	text-transform: uppercase;
+// }
+
+
+.qa h2{
+   cursor: pointer;
+   font-size: 1rem;
+   font-family: Lato;
+   font-weight: normal;
+  }
+
+  .qa button{
+     float: right;
+     margin-top: -3.5rem;
+     cursor: pointer;
+  }
+
+  .qa .answer{
+  font-family: Lato;
+  font-size: 1rem;
+  margin-top: -2rem;
+  margin-bottom: -1rem;
+  }
+  .faqsection p{
+   text-align: center;
+   margin-top: 1rem;
+   margin-bottom: 2.5rem;
+   font-family: Lato;
+   font-size: 2rem;
+   color: #fff;
+  }
+
+  .hrtag{
+    margin-top: 7rem;
+  }
+
+
+// @media screen and (max-width: 768px) {
+//     .container{
+//        padding: 1rem;
+//     }
+//   }

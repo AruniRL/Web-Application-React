@@ -1,0 +1,145 @@
+// .hero-content
+.hero-content h4{
+  margin-top: -2rem;
+}
+
+.hero-content h2{
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-family: Lato;
+  font-size: 3rem;
+}
+.m-0{
+  font-weight: 300;
+  text-align: center;
+  font-family: Lato;
+}
+.hero-email_form .hero-email_address{
+  font-family: Lato;
+  margin-top: 1rem;
+  // margin-left: -4rem;
+  font-size: 18px;
+  padding: 0.75rem;
+  border: none;
+  // border-radius: 0.25rem;
+}
+ .hero-email_form .hero-email_address_button{
+    margin-left: 0.50rem;
+    font-family: Lato;
+    padding: 0.75rem;
+    background-color: #6163ff;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    // border-radius: 0.25rem;
+
+}
+.flex-container{
+  display: flex;
+}
+.shadow{
+  margin-top: 2rem;
+  padding-left: 12rem;
+ width: 40rem;
+ height: 27rem;
+}
+.container-sm{
+  display: flex;
+}
+.container-p {
+  font-family: Lato;
+  font-size: 0.9rem;
+  color: #6163ff;
+  text-align: center;
+  // margin-left: -9rem;
+  margin-bottom: -0.75rem;
+  margin-top: -1rem;
+  // margin-left: -14rem;
+  
+}
+.hr-tag{
+  width: 70%;
+  color: gray;
+  height: 0.075rem;
+  margin-left: 11rem;
+  margin-right: -10rem;
+}
+
+.youtuberes{
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  text-align: center;
+}
+.youtuberes iframe{
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+}
+@media screen and (max-width: 768px){
+  .hero-content h4{
+    margin-top: -3rem;
+  }
+  .hr-tag{
+        width: 88%;
+        color: gray;
+        height: 0.075rem;
+        margin-left: 1rem;
+        margin-right: -10rem;
+   }
+   .hero-content h1{
+    font-size: 1.75rem; 
+   }
+    
+}
+
+@media screen and (width: 820px){
+  .hr-tag{
+    width: 88%;
+    color: gray;
+    height: 0.075rem;
+    margin-left: 2.5rem;
+    margin-right: -10rem;
+  }
+}
+// @media screen and (max-width: 768px) {
+//   .hero-email_form .hero-email_address{
+    
+//   }
+//   // .hero-email_form .hero-email_address_button{
+//   //   margin-top: 1rem;
+//   //   margin-left: 1rem;
+//   // }
+//   .hero-content h2{
+//     text-align: left;
+//     margin-top: 2rem;
+//     margin-left: 0.5rem;
+//     line-height: 90%;
+//   }
+//   .m-0{
+//     padding-left: 0.5rem;
+//     text-align: left;
+//   }
+//   .shadow{
+//     display: none;
+//   }
+//   .hr-tag{
+//     width: 88%;
+//     color: gray;
+//     height: 0.075rem;
+//     margin-left: 1rem;
+//     margin-right: -10rem;
+//   }
+//   .container-p {
+//     margin-left: 0.5rem;
+//   }
+//   .hero-figure img .playbutton{
+//     margin-left: -100rem;
+//   }
+
+// }

@@ -1,0 +1,108 @@
+.card{
+    cursor: pointer;
+    width: 280px;
+    height: 805px;
+    position: relative;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color:rgba(255, 255, 255, 0.1) ;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    // border-top: 1px solid rgba(255, 255, 255, 0.5);
+   // border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 4px;
+    padding: 20px;
+    transition: all .3s ease-in;
+}
+
+.card1{
+   
+        cursor: pointer;
+        width: 280px;
+        height: 805px;
+        position: relative;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        background-color:rgba(255, 255, 255, 0.1) ;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        // border-top: 1px solid rgba(255, 255, 255, 0.5);
+       // border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 4px;
+        padding: 20px;
+        transition: all .3s ease-in;
+    
+}
+
+// h4{
+//     color: #6163ff;
+// }
+.card-text ul li{
+    text-align: left;
+}
+
+.hrtag1{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .card-des{
+      margin-top: -24rem;
+  }
+  .card-des1{
+      margin-top: -18.5rem;
+  }
+  h5 .apply{
+      color: #6163ff;
+      cursor: pointer;
+     font-weight: normal;
+      font-size: smaller;
+     
+  }
+  h5 .apply1{
+    color: #6163ff;
+    cursor: pointer;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: smaller;
+  }
+  @media screen and (max-width: 768px){
+      .card-container{
+          margin-left: 1rem;
+      }
+      .hrtag1{
+        width: 88%;
+        color: gray;
+        height: 0.075rem;
+        margin-left: 1rem;
+        margin-right: -10rem;
+      
+      }
+      .card1{
+        height: 440px;
+      }
+      .card-des1{
+        margin-top: -1rem;
+    }
+    .card-des{
+        margin-top: -6.5rem;
+    }
+  }
+  @media screen and (width: 820px){
+    .hrtag1{
+        width: 88%;
+        color: gray;
+        height: 0.075rem;
+        margin-left: 2.5rem;
+        margin-right: -8rem;
+      
+      }
+  }

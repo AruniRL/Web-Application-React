@@ -1,0 +1,65 @@
+.form{
+    margin-left: 17rem;
+    // margin-top: 6rem;
+}
+.email_address{
+    align-items: center;
+  font-size: 18px;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+.email_address_button{
+    align-items: center;
+    padding: 0.75rem;
+    background-color: #6163ff;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+
+}
+
+.image{
+    opacity: 1;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wishlist p{
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    padding-top: 5rem;
+}
+.hr-tag2{
+    margin-top: -1rem;
+}
+// .hr-tag{
+//     width: 99%;
+//     color: gray;
+//     height: 0.075rem;
+//     margin-left: 1rem;
+//     margin-right: -10rem;
+//   }
+// .hr-tag{
+//     margin-top:-2rem;
+// }
+// .split{
+//     position: relative;
+//     /* background-color: #E76F51; */
+//     background:linear-gradient(to right bottom, rgba(13, 13, 14, 0.8),rgba(240, 247, 244, 0.8)), url("./../../../images/Section\ 3-4.jpg") no-repeat center center;
+//     background-size: cover;
+//     background-position: center;
+//     height: 18rem;
+//     // padding-top: 10rem;
+//     // padding-bottom: 10rem;
+// }
+
+@media screen and (max-width: 768px) {
+    .accordion{
+        margin-top: 2rem;
+    }
+    // .hr-tag{
+    //     margin-top: -1rem;
+    // }
+  }
